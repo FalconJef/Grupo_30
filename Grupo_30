@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carátula Trabajo</title>
+  <link rel="stylesheet" href="#">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 20px;
+    }
+
+    .marco {
+      border: 2px solid black;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      box-sizing: border-box;
+      background-color: white;
+    }
+
+    p {
+      margin: 8px 0;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    ul {
+      margin: 4px 0 12px 30px;
+      font-size: 16px;
+      line-height: 1.6;
+      list-style-type: none; 
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-style: italic;
+    }
+
+    .etiqueta {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="marco">
+
+    <header>
+      <p><span class="etiqueta">Universidad:</span> Universidad Autónoma de Entre Ríos</p>
+      <p><span class="etiqueta">Facultad:</span> Facultad de Ciencia y Tecnología (FCyT)</p>
+      <p><span class="etiqueta">Carrera:</span> Análisis de Sistemas y Lic. en Sistemas de Información</p>
+      <p><span class="etiqueta">Cátedra:</span> Fundamentos de la Computación</p>
+      <p><span class="etiqueta">Trabajo Práctico:</span> Trabajo Práctico N° 1 Proyecto streaming de videojuegos</p>
+    </header>
+
+    <section>
+      <article>
+        <h2>Profesores</h2>
+        <ul>
+          <li>- Ismael Cassi</li>
+          <li>- Paolo Orundes Cardinali</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Participantes</h2>
+        <ul>
+          <li>- Marcos Blanco</li>
+          <li>- Santino Remy</li>
+          <li>- Pablo Baztan</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <p><span class="etiqueta">Comisión:</span> Comisión N° 1</p>
+      <p><span class="etiqueta">Fecha de Entrega:</span> 31 de Octubre</p>
+      <p><span class="etiqueta">Año Lectivo:</span> 2025</p>
+    </section>
+
+    <footer>
+      <p class="footer">Trabajo Práctico – Fundamentos de la Computación</p>
+      <p class="footer">
+        <a href="https://www.uader.edu.ar" target="_blank">Sitio oficial UADER</a>
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>
