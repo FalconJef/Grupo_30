@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>PROPUESTA DE ARMADO DE PC PARA STREAMING</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body{
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+      margin: 4cm;
+      color: #111;
+    }
+    h1{
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #0044cc; /* azul */
+      text-align: center;
+      margin-bottom: 0.5em;
+    }
+    h2{
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #66a3ff; /* azul claro */
+      margin-top: 1.2em;
+      margin-bottom: 0.4em;
+    }
+    h3{
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #66a3ff;
+      margin-top: 0.8em;
+      margin-bottom: 0.3em;
+    }
+    hr{border:none;border-top:1px solid #ddd;margin:1em 0;}
+    ul, ol { margin: 0.5em 0 1em 1.2em; }
+    p{ margin: 0.5em 0; }
+    footer p{ text-align:center; color:#555; margin-top:2em; }
+    .source { font-size:14px; }
+    .price { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PROPUESTA DE ARMADO DE PC PARA STREAMING</h1>
+    <hr>
+  </header>
+
+  <section>
+    <article>
+      <h2>Componentes y su justificacion tecnica</h2> 
+      <img src="https://i.postimg.cc/vmWKj0gQ/Screenshot-20251018-154441-2.jpg">
+      <p class="source">Fuente: https://ecommerce.paranahardware.com.ar</p>
+      <h3>Procesador AMD Ryzen 5 8500G</h3>
+      <ul>
+        <li>Es una APU moderna con gráficos integrados Radeon 740M, muy buena opción para transmitir en vivo videojuegos ligeros como Minecraft, sin necesidad de una GPU dedicada.</li>
+        <li>Minecraft Java depende más del procesador y la RAM que de la GPU, por lo que este CPU maneja fácilmente 60 fps o más a 720p con OBS en simultáneo.</li>
+        <li>Al combinar CPU con GPU integrados, son más económicas que comprar una CPU y una tarjeta gráfica por separado.</li>
+        <li>Soporta codificación por hardware (AV1, H.264) útil para una transmisión fluida en Twitch sin sobrecargar el CPU.</li>
+      </ul>
+
+      <h3>Placa Madre Asus B650M-A II</h3>
+      <ul>
+        <li>Permite futuras expansiones (GPU dedicada o más RAM).</li>
+        <li>Tiene buenas fases de energía y conectividad (USB-C, M.2, audio HD), ideal para la estabilidad durante la transmisión en vivo.</li>
+        <li>Chipset B650 compatible con Ryzen 8000G, soporte para DDR5 y PCIe 5.0.</li>
+      </ul>
+
+      <h3>Memoria RAM Adata XPG Lancer 16 GB (DDR5 6000 MHz)</h3>
+      <ul>
+        <li>16 GB es lo mínimo ideal para jugar Minecraft Java (ya que usa mucha RAM) y poder transmitir al mismo tiempo.</li>
+        <li>DDR5 a 6000 MHz mejora el rendimiento de la APU, ya que los gráficos integrados dependen directamente de la velocidad de la RAM.</li>
+      </ul>
+
+      <h3>Almacenamiento Lexar NVMe 1 TB NM610 PRO</h3>
+      <ul>
+        <li>Suficiente capacidad para Minecraft, mods y OBS.</li>
+        <li>SSD NVMe rápido que reduce tiempos de carga y mejora la fluidez general del sistema.</li>
+      </ul>
+
+      <h3>Fuente Gigabyte 650W 80+ Silver</h3>
+      <ul>
+        <li>Alta eficiencia y margen de sobra para alimentar el sistema incluso si luego agregás una GPU dedicada.</li>
+        <li>Mantiene voltajes estables, evitando caídas de rendimiento por picos de consumo.</li>
+      </ul>
+
+      <h3>Gabinete Sentey M12 ARGB</h3>
+      <ul>
+        <li>Ventilación adecuada que evita los sobrecalentamientos que podrían afectar la estabilidad durante transmisiones largas o eventos extensibles.</li>
+      </ul>
+
+      <h3>Monitor Teros 24" FHD IPS 120 Hz</h3>
+      <ul>
+        <li>Resolución 1080p, más que suficiente para poder transmitir y jugar a 720p.</li>
+        <li>Panel IPS que da buena calidad de color y refresco de 120 Hz para una experiencia visual más fluida.</li>
+      </ul>
+
+      <h3>Teclado y mouse USB</h3>
+      <p>Cumplen sus funciones esenciales y no afectan el rendimiento general.</p>
+
+      <h3>Auriculares Redragon Hylas RGB</h3>
+      <p>Buena calidad de audio. Viene con micrófono integrado, ideal para hablar en vivo durante la transmisión.</p>
+
+      <h3>Webcam Logitech C920s HD Pro</h3>
+      <p>Webcam de calidad profesional, 1080p nativo con buena imagen incluso con poca luz. Se integra perfectamente con OBS o Streamlabs.</p>
+
+      <h3>UPS HIKVISION DS-UPS1000 1000VA/600W 220V Backup</h3>
+      <p>Protege al PC ante cortes de energía eléctrica, garantizando estar en línea unos minutos para guardar todo y apagar de forma segura.</p>
+      <p class="price">Precio: $ 81.920,00</p>
+      <p class="source">Fuente: https://goldentechstore.com.ar/producto/ups-hikvision-ds-ups1000-1000va-600w-220v-backup</p>
+    </article>
+
+    <article>
+      <h2>Software Base</h2>
+      <h3>Windows 10</h3>
+      <ul>
+        <li>Es el sistema operativo requerido (según Mojang) dentro de los requisitos mínimos de Minecraft Java Edition.</li>
+        <li>Minecraft Java y OBS funcionan mejor en Windows por compatibilidad con drivers AMD y codecs.</li>
+        <li>Se puede descargar desde la web oficial de Microsoft.</li>
+      </ul>
+
+      <h3>Controladores (drivers) AMD Adrenalin Software</h3>
+      <ul>
+        <li>Controladores actualizados para Ryzen 5 8500G.</li>
+        <li>Instalar esto asegura un rendimiento óptimo y el acceso al codificador de video AV1/H.264 para streaming.</li>
+      </ul>
+
+      <h3>Minecraft Java edition</h3>
+      <p>Precio: $29.99 (aprox. $42.208 pesos argentinos)</p>
+      <p class="source">Fuente: https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc?tabs=%7B"details"%3A0%7D</p>
+
+      <h3>Rendimiento esperado</h3>
+      <ul>
+        <li>Minecraft Java Edition (720p, gráficos medios-altos, shaders simples): 80–120 fps.</li>
+        <li>Streaming (OBS con codificador hardware AV1 o H.264): fluido, sin caídas notables de rendimiento.</li>
+        <li>Temperaturas: Estables (~65 °C CPU en carga).</li>
+      </ul>
+    </article>
+  </section>
+
+  <footer>
+ 
+  </footer>
+</body>
+</html>
